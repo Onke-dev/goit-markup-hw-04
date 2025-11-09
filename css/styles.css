@@ -236,9 +236,8 @@ img {
 
 .list-sec-cecond {
     display: flex;
+    align-items: center;
     gap: 24px;
-    height: 104px;
-
 }
 
 .items-list {
