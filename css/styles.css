@@ -427,6 +427,8 @@ img {
 
 }
 
+
+
 /*************************** Footer *****************************/
 
 .foo_ter {
@@ -466,4 +468,43 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+
+.footer-social {
+    display: inline-block;
+    align-items: flex-start;
+}
+
+/* .social-title {
+    display: ;
+} */
+
+
+.social-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: white;
+}
+
+.social-footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.li-social-title {
+    background-color: #4D5AE5;
+    width: 40px;
+    height: 40px;
+    padding: 8px 8px;
+    border-radius: 50%;
+}
+
+.social-icon-footer {
+    fill: white;
 }
