@@ -245,6 +245,15 @@ img {
     flex-basis: calc((100% - 72px) / 4);
 }
 
+.icon {
+
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    padding: 24px 100px;
+    margin-bottom: 8px;
+}
+
+
 .title-sec-cecond {
     font-size: 20px;
     font-family: "Roboto", sans-serif;
