@@ -308,11 +308,13 @@ img {
     background-color: #ffffff;
     flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .info {
     text-align: center;
-    padding: 32px 0;
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 
 .title-sec-third {
@@ -337,6 +339,33 @@ img {
     text-align: center;
 }
 
+.social {
+    padding-bottom: 32px;
+}
+
+
+.list-social {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    
+    
+}
+
+.li-list-social {
+    background-color: #4D5AE5;
+    width: 40px;
+    height: 40px;
+    padding: 12px 12px;
+    border-radius: 50%;
+}
+
+.social-icon {
+    
+    fill: white;
+}
 
 /*************************** Section 4 *****************************/
 
