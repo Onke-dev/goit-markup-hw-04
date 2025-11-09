@@ -172,6 +172,10 @@ img {
 /*************************** Section 1 *****************************/
 
 .sec-first {
+    background-image: url(/images/Dark-bg.svg), url(/images/people-office\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover, cover;
     background-color: #2E2F42;
     color: #ffffff;
     text-align: center;
