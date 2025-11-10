@@ -258,7 +258,10 @@ img {
 }
 
 .icon {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
     background-color: #F4F4FD;
     border-radius: 4px;
     padding: 24px 100px;
