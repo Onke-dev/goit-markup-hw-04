@@ -185,10 +185,10 @@ img {
 /*************************** Section 1 *****************************/
 
 .sec-first {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url(/images/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office\ 1.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover, cover;
+    background-position: center;
+    background-size: cover;
     background-color: #2E2F42;
     color: #ffffff;
     text-align: center;
