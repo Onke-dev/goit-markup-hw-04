@@ -171,7 +171,7 @@ img {
 /*************************** Section 1 *****************************/
 
 .sec-first {
-    background-image: url(/images/Dark-bg.svg), url(/images/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url(/images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover, cover;
