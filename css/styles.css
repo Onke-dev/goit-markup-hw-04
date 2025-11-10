@@ -56,7 +56,6 @@ img {
 
 .head .container {
     display: flex;
-    /* gap: 332px; */
     justify-content: space-between;
     height: 72px;
     align-items: center;
@@ -350,8 +349,8 @@ img {
     align-items: center;
     justify-content: center;
     gap: 24px;
-    
-    
+
+
 }
 
 .li-list-social {
@@ -363,7 +362,7 @@ img {
 }
 
 .social-icon {
-    
+
     fill: white;
 }
 
@@ -432,11 +431,19 @@ img {
 /*************************** Footer *****************************/
 
 .foo_ter {
+    display: flex;
     background-color: #2E2F42;
     text-align: left;
     height: 312px;
     padding: 100px 0;
 }
+
+.foo_ter .container {
+    display: flex;
+    justify-content: start;
+    gap: 120px;
+}
+
 
 .foo_ter .logo {
     font-size: 18px;
@@ -470,14 +477,14 @@ img {
     max-width: 264px;
 }
 
-.footer-social {
-    display: inline-block;
-    align-items: flex-start;
-}
 
-/* .social-title {
-    display: ;
-} */
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
 
 
 .social-title {
@@ -487,6 +494,7 @@ img {
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: white;
+    margin-bottom: 16px;
 }
 
 .social-footer-list {
