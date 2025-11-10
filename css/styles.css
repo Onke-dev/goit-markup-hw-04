@@ -333,8 +333,7 @@ img {
 
 .info-sec3 {
     text-align: center;
-    padding-top: 32px;
-    padding-bottom: 8px;
+    padding: 32px 32px;
 }
 
 .title-sec-third {
@@ -357,16 +356,14 @@ img {
     color: #434455;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
 
-.social {
-    padding-bottom: 32px;
-}
 
 
 .list-social {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     gap: 24px;
