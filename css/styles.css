@@ -507,10 +507,12 @@ img {
 .foo_ter .container {
     display: flex;
     justify-content: start;
+    align-items: baseline;
 }
 
 .info-footer {
     margin-right: 120px;
+    align-items: baseline;
 }
 
 .foo_ter .logo {
