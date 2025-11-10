@@ -363,10 +363,12 @@ img {
 
 .list-social {
     display: flex;
-    flex-wrap: nowrap;
+    
     align-items: center;
     justify-content: center;
     gap: 24px;
+    height: 100%;
+    width: 100%;
 
 
 }
@@ -381,7 +383,7 @@ img {
 
 .social-icon {
 
-    fill: white;
+    fill: #f4f4fd ;
 }
 
 /*************************** Section 4 *****************************/
