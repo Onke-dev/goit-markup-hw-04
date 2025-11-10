@@ -549,7 +549,7 @@ img {
 .footer-social {
     display: flex;
     flex-direction: column;
-    align-items: baseline
+    align-items: baseline;
 }
 
 
@@ -594,7 +594,7 @@ img {
 
 .link-icon-footer:hover,
 .link-icon-footer:focus {
-    background-color: #404bbf;
+    background-color: #31d0aa;
 }
 
 .social-icon-footer {
